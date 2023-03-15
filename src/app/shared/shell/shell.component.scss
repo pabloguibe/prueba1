@@ -4,10 +4,9 @@
 
 .sidenav {
   width: 200px;
-}
-
-.sidenav .mat-toolbar {
-  background: inherit;
+  .mat-toolbar {
+    background: inherit;
+  }
 }
 
 .mat-toolbar.mat-primary {
@@ -15,10 +14,15 @@
   top: 0;
   z-index: 1;
 }
+
 .mat-toolbar{
-  background-color:burlywood;
+  background-color:black;
 }
 
 .logo{
 font-size:30px;
+}
+
+.nav-link{
+color:aliceblue !important;
 }
